@@ -8,9 +8,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&family=Open+Sans:wght@400;700&display=swap">
   <link rel="stylesheet" href="style.css">
+  <link rel="preload" as="image" href="icons/moon-solid.svg">
+  <link rel="preload" as="image" href="icons/sun-solid.svg">
   <script defer src="initialise.js"></script>
 </head>
-<body>
+<body class="dark">
   <nav>
     <ul>
       <li><a href="#home">Home</a></li>
@@ -21,7 +23,9 @@
     </ul>
   </nav>
   <main>
-    <h1>Hi, I'm Emily</h1>
+    <div class="heading-wrapper">
+      <h1>Hi, I'm Emily</h1>
+    </div>
     <div class="sections">
       <section id="projects">
         <hr>
@@ -39,7 +43,7 @@
     </div>
   </main>
   <footer>
-    <button><strong>Switch to dark mode</strong><img src="icons/moon-solid.svg" alt="Dark mode toggle icon"></button>
+    <button><strong>Switch to light mode</strong><img src="icons/sun-solid.svg" alt="Dark mode toggle icon"></button>
   </footer>
 </body>
 </html>
