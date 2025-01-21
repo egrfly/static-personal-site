@@ -47,6 +47,10 @@ body.dark {
   color: #fffd;
 }
 
+body.dark hr {
+  border-color: #fff;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'JetBrains Mono', monospace;
 }
@@ -90,6 +94,7 @@ button:hover {
 
 hr {
   margin-top: 0;
+  border-color: #000;
   border-width: 2px 0 0 0;
   border-style: solid;
 }
